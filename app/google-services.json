@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "1064986451910",
+    "firebase_url": "https://logininputdata.firebaseio.com",
+    "project_id": "logininputdata",
+    "storage_bucket": "logininputdata.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064986451910:android:0d9a4d152f2853a7",
+        "android_client_info": {
+          "package_name": "com.example.andry007.pelanggaransiswa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064986451910-dkmjgdlf88hloeiihngfi1le3blb6bfl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.andry007.pelanggaransiswa",
+            "certificate_hash": "5d85dfc5558d51a335f58e8f7f91a655a1c40c1a"
+          }
+        },
+        {
+          "client_id": "1064986451910-rdmhoajrieovc9p83vej3hjsp1ikr58q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDag45z9qy4hhB3Dhe-lRticA4JDQP24JQ"
+        },
+        {
+          "current_key": "AIzaSyBhJatd9gRoVf8bjjPb-P_m7xki5Tmq2hI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1064986451910-rdmhoajrieovc9p83vej3hjsp1ikr58q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

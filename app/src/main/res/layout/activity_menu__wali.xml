@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Menu_Wali">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/cvMain">
+
+        <Button
+            android:id="@+id/data_pelanggaran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DATA PELANGGARAN" />
+
+    </LinearLayout>
+            <ListView
+                android:id="@+id/list_datasiswa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentStart="true">
+            </ListView>
+</LinearLayout>

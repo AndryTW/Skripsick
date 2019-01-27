@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Aplikasi Pelanggaran Siswa</string>
+    <string name="petunjuk_login1">
+        ** UNTUK WALI KELAS TEKAN TOMBOL WALI KELAS
+    </string>>
+    <string name="petunjuk_login2">
+        ** UNTUK ORANG TUA SISWA TEKAN TOMBOL ORANG TUA
+    </string>
+    <string name="minimum_password">
+       minimal password 6 karakter
+    </string>
+    <string name="L">
+        Laki-Laki
+    </string>
+    <string name="P">
+        Perempuan
+    </string>
+    <string-array name="SP_thn">
+        <item>2017/2018</item>
+        <item>2018/2019</item>
+        <item>2019/2020</item>
+        <item>2020/2021</item>
+        <item>2021/2022</item>
+    </string-array>
+    <string-array name="SP_kls">
+        <item>X Hotel 1</item>
+        <item>X Hotel 2</item>
+        <item>X Hotel 3</item>
+        <item>X TBSM 1</item>
+        <item>X TBSM 2</item>
+    </string-array>
+
+    <string name="jenis_pelanggaran">Choose your favorite animal</string>
+</resources>

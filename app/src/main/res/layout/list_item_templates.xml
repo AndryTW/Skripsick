@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/list">
+
+    <TextView
+        android:id="@+id/id_thn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tahun Ajaran :" />
+
+    <TextView
+        android:id="@+id/id_nis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIS :" />
+
+    <TextView
+        android:id="@+id/id_kls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelas :" />
+
+    <TextView
+        android:id="@+id/id_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama :" />
+</LinearLayout>

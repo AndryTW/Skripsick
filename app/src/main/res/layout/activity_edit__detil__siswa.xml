@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Edit_Detil_Siswa">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:text="UBAH DATA SISWA">
+    </TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tahun Ajaran" />
+    <EditText
+        android:id="@+id/et_thn_ajaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tahun Ajaran"
+        android:inputType="number" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelas" />
+    <EditText
+        android:id="@+id/et_kelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kelas"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomo Induk Siswa" />
+    <EditText
+        android:id="@+id/et_NIS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomor Induk Siswa"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Siswa" />
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat" />
+    <EditText
+        android:id="@+id/et_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin" />
+    <EditText
+        android:id="@+id/et_jk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jenis Kelamin"
+        android:inputType="text" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Orangtua" />
+    <EditText
+        android:id="@+id/et_nama_ortu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Orangtua"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor Telepon Orangtua" />
+    <EditText
+        android:id="@+id/et_no_ortu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomor Telepon Orangtua"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_updt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIMPAN"/>
+
+
+</LinearLayout>
+
+</ScrollView>
